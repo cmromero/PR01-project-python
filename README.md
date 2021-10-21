@@ -53,5 +53,5 @@ Tener instalado Python 3
 ## Links
 [Repository]( https://github.com/cmromero/PR01-project-python)
 [Slides](https://docs.google.com/presentation/d/1Hl6G5ZLDlURBEdZrBYA8ZbDWIcgo_uMF/edit?usp=sharing&ouid=104093943574938358160&rtpof=true&sd=true)  
-[Trello](https://github.com/cmromero/PR01-project-python)
+[Trello](https://trello.com/b/YdMnXrUo/proyecto-juego-el-calamar)
 [Pseudocode](https://docs.google.com/document/d/1LWLBzLX0gc5wyjrPFhdib7V2wgU2GCzr/edit?usp=sharing&ouid=104093943574938358160&rtpof=true&sd=true)
