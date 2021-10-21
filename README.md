@@ -1,86 +1,57 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# PR01-project-python
-# Build your own game!
+# Las canícas del juego del calamar
+*[Carlos Romero]*
 
-First project of the Module 1
+*[Your Cohort, Ironhack Barcelona 2021-10-21]*
 
 ## Content
 - [Project Description](#project-description)
-- [Games](#games)
-- [Project Goals](#project-goals)
-- [Requirements & Deliverables](#requirements-&-deliverables)
-- [Schedule](#schedule)
-- [Presentation](#presentation)
+- [Rules](#rules)
+- [Workflow](#workflow)
+- [Organization](#organization)
+- [Requisitos para jugar](#requisitos)
+- [Como empezar a jugar] (#Como empezar a jugar)
+- [Links](#links)
 
 ## Project Description
-In this project, you will create your first software!
-You are tasked with creating a **game** that interacts with the user, using the functions and basic python resources you have learned during the week. Your game will be able to take an input from the user and provide an output. 
+En este proyecto se ha programado un juego en Python. El juego que se ha escogido es el juego de las canicas que aparece en la serie “El juego del Calamar”. He escogido este juego porque recientemente la he visto y pensé que era un juego que se prestaba a ser programado.
 
-You will also present your game to the class with a **10 minutes presentation**. 
+## Rules
+En este juego dos jugadores deben enfrentarse, cada jugador empieza con 10 canicas. En turnos los jugadores deben apostar sus canicas mientras intentan adivinar si el rival sostiene un número par o impar. En caso de adivinar correctamente, se llevará las canicas del oponente, de lo contrario perderá el número de canicas que apostó. El primer jugador que se quede sin canicas habrá perdido.
 
-## Games
-You must come to an agreement with your colleagues so **maximum 2 persons** develops one of the following games:
+## Workflow
+- Decidir el juego a crear. Se descartaron los juegos del ahorcado y el mentiroso por ser o poco estimulantes o muy complicados.
+- Escribir en word el pseudocódigo de todos los pasos que haría el juego. (se puede consultar el pseudocódigo con el enlace que se aporta a drive más abajo)
+- Importar módulos necesarios (random para las jugadas de la máquina y time para esperar unos segundos entre paso y paso)
+- Diseñar funciones necesarias para el juego: elección de jugador y rival; aleatorio para decir quien empieza, elección de apuesta en canicas y en par/impar del rival, solicitar elección del jugador para cuantas canicas apuestan y el número impar/par del contrincante.
+- Crear clase Juego para añadir todas las funciones creadas en celdas de notebook y diseñar una función con nombre “jugar” donde se especifican los pasos del juego y las interacciones del jugador con  todas las funciones.
+- Exportar código clase Juego a archivo txt, completarlo y guardarlo
+- Testear el juego en consola CONDA.
+- 
+## Organization
+Para organizar las acciones del proyecto he utilizado la técnica CAMBAN con el programa trello.
 
-* Strong Random Password Generator [example](https://passwordsgenerator.net/)
-* Guess The Number [example](https://www.mathsisfun.com/games/guess_number.html)
-* Hangman  [example](https://www.hangmanwords.com/play)
-* Message Encryption & Decryption [example](https://www.online-toolz.com/tools/text-encryption-decryption.php)
-* Mastermind [example](https://www.webgamesonline.com/mastermind/)
-* Tic Tac Toe [example](https://playtictactoe.org/)
-* Blackjack [example](https://www.247blackjack.com/) 
-* Soldier & Dice (Risk) [example](https://dominating12.com/)
-* Escape Room (guided) that can be found here https://github.com/ironhack-bcn-data-june-2020/PR01-python-project-escape-room
+El repositorio donde se aloja el código está en https://github.com/cmromero/PR01-project-python. 
 
-## Project Goals
-During this project you will:
-* Fork and manage your own git repository. 
-* Create a folder /game/ to wrap your code files.
-* Build your own code from scratch (except for the Escape Room). 
-* Include a README.MD for your game.
-* Put into practice the basic python concepts learned during the week.
-* Get used to public presentations. 
+Dentro encontramos:
+- README.md 
+- my_code.ipynb => todo el trabajo de programación está hecho en jupyter notebook
+- juego.py => código a ejecutar con Python
+- .ipynb_checkpoints
+- .gitignore 
 
-## Requirements & Deliverables
-The **mandatory** requirements that this project needs to satisfy are: 
-* The project must be planned, using a Kanban, a Trello board or a github project. You can find a template for Trello [here](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). Remember that you **CAN'T CODE** until your project is planned. 
-* Your repository must be clean and organized, which means that it must include a *.gitignore* file and a README file, as well as have a well-structured file organization. 
-* Your code must include functions. 
+## Requisitos para jugar
+Tener instalado Python 3
 
-The **mandatory** deliverables that you must turn in are:
-* Link to the repository you used while building your project. The repository must include all the files you used to build your game. Remember to commit often!
-* Link to Trello or picture of your Kanban Board. Include the link or picture in the README file.
+## Como empezar a jugar
+1- Descargar en local el repositorio de github
+2- Abrir consola de comandos (p.e. Anaconda Prompt)
+3- Navegar con cd hasta la raíz del repositorio que hemos descargado.
+4- Ejecutar juego.py mediante la siguiente instrucción: “python juego.py”
 
-The **deadline** to turn in the deliverables is right before the project presentations. 
-
-## Schedule
-| Thursday|  
-|:--------:|
-* Choose your game.
-
-
-| Saturday to Friday|  
-|:--------:|
-* Plan your project. Remember that we are providing you with a Trello [template](https://trello.com/b/pc2CNZTo/project-1-build-your-own-game). 
-* Fork the repository and edit the README overview. You can find a [template](https://github.com/ironhack-bcn-data-june-2020/PR01-project-python/readme_template_projects.md) for your README file in this repository. Remember to keep the README up-to-date. 
-* Once you finish, start coding!
-* Make the Presentation
-
-| Saturday|  
-|:--------:|
-* Time to present! 
-
-## Presentation
-The presentation time limit is **10 minutes**! 
-
-The slides of your presentation must include the content listed below and a demo of your game:
-
-* Title of the project + Student name  
-* Description of your game  
-* Challenges  
-* Process  
-* Learnings    
-* If I were to start from scratch...    
-* Improvements  
-* Highlights  
-* Demo (ONE MINUTE)
+## Links
+[Repository]( https://github.com/cmromero/PR01-project-python)
+[Slides](https://docs.google.com/presentation/d/1Hl6G5ZLDlURBEdZrBYA8ZbDWIcgo_uMF/edit?usp=sharing&ouid=104093943574938358160&rtpof=true&sd=true)  
+[Trello](https://github.com/cmromero/PR01-project-python)
+[Pseudocode](https://docs.google.com/document/d/1LWLBzLX0gc5wyjrPFhdib7V2wgU2GCzr/edit?usp=sharing&ouid=104093943574938358160&rtpof=true&sd=true)
