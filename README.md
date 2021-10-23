@@ -3,7 +3,7 @@
 # Las canícas del juego del calamar
 *[Carlos Romero]*
 
-*[Your Cohort, Ironhack Barcelona 2021-10-21]*
+*[DATA PT SEP 2021, Ironhack Barcelona 2021-10-21]*
 
 ## Content
 - [Project Description](#project-description)
@@ -11,7 +11,7 @@
 - [Workflow](#workflow)
 - [Organization](#organization)
 - [Requisitos para jugar](#requisitos)
-- [Como empezar a jugar] (#Como empezar a jugar)
+- [Como empezar a jugar](#Como empezar a jugar)
 - [Links](#links)
 
 ## Project Description
@@ -28,7 +28,7 @@ En este juego dos jugadores deben enfrentarse, cada jugador empieza con 10 canic
 - Crear clase Juego para añadir todas las funciones creadas en celdas de notebook y diseñar una función con nombre “jugar” donde se especifican los pasos del juego y las interacciones del jugador con  todas las funciones.
 - Exportar código clase Juego a archivo txt, completarlo y guardarlo
 - Testear el juego en consola CONDA.
-- 
+
 ## Organization
 Para organizar las acciones del proyecto he utilizado la técnica CAMBAN con el programa trello.
 
@@ -45,13 +45,13 @@ Dentro encontramos:
 Tener instalado Python 3
 
 ## Como empezar a jugar
-1- Descargar en local el repositorio de github
-2- Abrir consola de comandos (p.e. Anaconda Prompt)
-3- Navegar con cd hasta la raíz del repositorio que hemos descargado.
-4- Ejecutar juego.py mediante la siguiente instrucción: “python juego.py”
+- Descargar en local el repositorio de github
+- Abrir consola de comandos (p.e. Anaconda Prompt)
+- Navegar con cd hasta la raíz del repositorio que hemos descargado.
+- Ejecutar juego.py mediante la siguiente instrucción: “python juego.py”
 
 ## Links
 [Repository]( https://github.com/cmromero/PR01-project-python)
 [Slides](https://docs.google.com/presentation/d/1Hl6G5ZLDlURBEdZrBYA8ZbDWIcgo_uMF/edit?usp=sharing&ouid=104093943574938358160&rtpof=true&sd=true)  
-[Trello](https://trello.com/b/YdMnXrUo/proyecto-juego-el-calamar)
+[Trello](https://github.com/cmromero/PR01-project-python)
 [Pseudocode](https://docs.google.com/document/d/1LWLBzLX0gc5wyjrPFhdib7V2wgU2GCzr/edit?usp=sharing&ouid=104093943574938358160&rtpof=true&sd=true)
