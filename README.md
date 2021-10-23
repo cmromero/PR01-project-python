@@ -10,8 +10,8 @@
 - [Rules](#rules)
 - [Workflow](#workflow)
 - [Organization](#organization)
-- [Requisitos para jugar](#requisitos)
-- [Como empezar a jugar](#Como empezar a jugar)
+- [Requisitos para jugar](#Requisitos_para_jugar)
+- [Como empezar a jugar](#Como_empezar_a_jugar)
 - [Links](#links)
 
 ## Project Description
@@ -41,10 +41,10 @@ Dentro encontramos:
 - .ipynb_checkpoints
 - .gitignore 
 
-## Requisitos para jugar
+## Requisitos_para_jugar
 Tener instalado Python 3
 
-## Como empezar a jugar
+## Como_empezar_a_jugar
 - Descargar en local el repositorio de github
 - Abrir consola de comandos (p.e. Anaconda Prompt)
 - Navegar con cd hasta la raíz del repositorio que hemos descargado.
